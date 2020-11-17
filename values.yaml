@@ -1,0 +1,4 @@
+name: flaskex
+image:
+  repository: flaskex
+  tag: latest
