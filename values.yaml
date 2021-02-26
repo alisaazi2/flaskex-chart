@@ -1,4 +1,5 @@
 name: flaskex
+replicas: 1
 image:
   repository: ikambarov/flaskex
   tag: latest
