@@ -8,5 +8,5 @@ spec:
     protocol: TCP
     targetPort: 5000
   selector:
-    run: {{ .Release.Name }}-pod
+    app: flaskex
   type: NodePort
