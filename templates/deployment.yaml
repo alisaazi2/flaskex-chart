@@ -14,10 +14,6 @@ spec:
     metadata:
       labels:
         app: flaskex
-  template:
-    metadata:
-      labels:
-        app: flaskex
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
