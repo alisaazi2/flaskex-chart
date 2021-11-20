@@ -1,5 +1,4 @@
-name: flaskex
-replicas: 1
-image:
-  repository: ikambarov/flaskex
-  tag: latest
+name: "mypod"
+tag: "1.21"
+image: "nginx"
+port: 80
